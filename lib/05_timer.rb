@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def time_string(n)
-  Time.at(n).utc.strftime "%H:%M:%S"
+  Time.at(n).utc.strftime '%H:%M:%S'
 end
